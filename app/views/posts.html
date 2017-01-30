@@ -1,0 +1,66 @@
+<header class="page-header">
+    <div class="container">
+        <div class="page-header__container-main">
+            <div class="title-container">
+                <h1 class="title-container__title">QUESTIONS</h1>
+                <span class="title-container__plus"></span>
+            </div>
+            <div class="radio-group">
+                <input type="radio" name="group1" value="my_shelf" checked title="Show posts from your shelf">My shelf
+                <input type="radio" name="group1" value="all_questions"  title="Show all posts"> All Questions
+            </div>
+            <input id="search" type="text" class="search search--length" placeholder="SEARCH QUESTIONS">
+        </div>
+
+        <div class="page-header__container-side">
+            <div class="sort">
+                <span>sort by:</span>
+                <a id="recent">recent</a>
+                <span>or</span>
+                <a id="hot" >hot</a>
+            </div>
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+    </div>
+</header>
+
+<section class="post-container">
+    <div class="container"  ng-controller="post-controller">
+        <div class="post"
+             ng-repeat="post in posts | orderBy: postOrder | filter: postSearch | limitTo: postLimit">
+            <div class="post__header">
+                <div class="avatar">
+                    <img src="img/{{post.avatar}}" alt="avatar">
+                </div>
+                <div class="post__title">
+                    <p>{{post.name}}<span>{{post.detail}}</span></p>
+                    <p>{{post.title}}</p>
+                </div>
+            </div>
+            <div class="post__type">
+                <span>{{post.type}}</span>
+            </div>
+            <div class="post__activity">
+                    <div class="activities"  ng-if="post.activities.length>limit">
+                        <span class="activities__label--up">{{post.activities.length-limit}}</span>
+                        <span class="activities__label--down">more activities</span>
+                    </div>
+                    <div ng-repeat="activity in post.activities | limitTo: limit"
+                         ng-class="{ 'comment': activity.type=='commented' , 'comment answer': activity.type=='answered'}">
+                        <div class="avatar">
+                            <img src="img/{{activity.avatar}}">
+                        </div>
+                        <span>{{activity.type}}</span>
+                    </div>
+                </div>
+            <div class="post__stats">
+                <p><span>{{post.discussion}}</span> related discussion</p>
+                <p><span>{{post.peers}}</span> peers involved</p>
+                <p><span>{{post.conversation}}</span> conversations</p>
+            </div>
+            </div>
+        <button class="load-more" id="load-more">Load more questions</button>
+    </div>
+
+</section>
+
