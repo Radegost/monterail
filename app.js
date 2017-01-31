@@ -6,11 +6,11 @@
             $stateProvider
                 .state('main', {
                     url: '',
-                    templateUrl: 'app/views/posts.html'
+                    templateUrl: 'app/views/singlepost.html'
                 })
                 .state('forms', {
-                    url: '/zapisy',
-                    templateUrl: 'app/views/forms.html'
+                    url: '/all',
+                    templateUrl: 'app/views/posts.html'
                 })
                 .state("otherwise", {
                     url: '/',

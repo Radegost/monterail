@@ -1,0 +1,15 @@
+.single-post-title {
+  margin-top: 20px; }
+
+.post-date {
+  display: none;
+  float: right;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  font-family: RoticSansItalic, sans-serif; }
+  .post-date span {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: RoticSansBold, sans-serif; }
+
+/*# sourceMappingURL=single.css.map */

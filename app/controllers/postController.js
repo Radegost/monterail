@@ -35,10 +35,10 @@
         function getLimit() {
             if($window.innerWidth<658){
                 $scope.limit = 1;
-            } else if($window.innerWidth<700){
+            } else if($window.innerWidth<740){
                 $scope.limit = 2;
             }
-             else if($window.innerWidth<800){
+             else if($window.innerWidth<850){
                 $scope.limit = 3;
             }
             else {
