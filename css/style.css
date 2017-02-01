@@ -186,6 +186,7 @@ body {
   .post__type {
     display: none;
     position: relative;
+    text-transform: uppercase;
     width: 90px;
     min-width: 90px;
     height: 186px;
