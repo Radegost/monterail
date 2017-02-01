@@ -15,6 +15,9 @@
                     url: '/post/:postid',
                     templateUrl: 'app/views/singlepost.html'
                 })
+                .state("home", {
+                    redirectTo:'/'
+                })
                 .state("otherwise", {
                     redirectTo:'/'
                 })
