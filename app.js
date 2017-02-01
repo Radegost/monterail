@@ -9,14 +9,10 @@
                     controller: "post-controller",
                     templateUrl: 'app/views/posts.html'
                 })
-
                 .state('post', {
                     controller: "singlePost-controller",
                     url: '/post/:postid',
                     templateUrl: 'app/views/singlepost.html'
-                })
-                .state("home", {
-                    redirectTo:'/'
                 })
                 .state("otherwise", {
                     redirectTo:'/'
