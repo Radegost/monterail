@@ -1,3 +1,17 @@
+.comments-count{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  h3{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  span{
+    font-size: 14px;
+    font-style: italic;
+  }
+}
 .post-date{
   display: none;
 }
@@ -8,6 +22,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+
   &__author{
     padding-top: 15px;
     display: inline-block;
@@ -82,13 +97,10 @@
   }
 }
 .sp-content{
-  padding-bottom: 20px;
   p{
-    margin: 10px 10px 60px;
+    margin: 10px 10px 0px;
+    padding-bottom: 75px;
     color: gray;
-  }
-  .post__type{
-    display: none;
   }
 }
 .post-action-button{
@@ -158,7 +170,6 @@
 }
 .sp-comment{
   width: 100%;
-  margin-top: 50px;
   margin-bottom: 50px;
   &__sub{
     border-top: 1px solid lightgray;
@@ -205,12 +216,7 @@
       font-weight: 700;
     }
   }
-  .sp-content{
 
-    .post__type{
-      display: inline-block;
-    }
-  }
   .sp-header{
     &__date{
       top:-5px;
@@ -247,9 +253,11 @@
   .sp-content{
 
     p{
+
       min-height: 165px;
       margin: 0;
       padding: 10px;
+      padding-bottom: 75px;
       border-left: 90px solid #dff3fd;
       width: calc(100% - 150px);
       vertical-align: top;

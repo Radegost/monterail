@@ -3,7 +3,7 @@
     "id" : "1",
     "date" : "2017-01-31",
     "name" : "Eva",
-    "avatar" : "kidler.jpg",
+    "avatar" : "eva.jpg",
     "type" : "Asked",
     "detail" : "IS ASKING:",
     "title" : "Will insulin make my patient gain weight?",
@@ -17,26 +17,26 @@
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "david.jpg",
         "type" : "commented"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "halima.png",
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "joseph.jpg",
         "type" : "commented"
       }, {
-        "avatar" : "kidler.jpg",
+        "avatar" : "patricia.png",
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "andrew.png",
         "type" : "commented"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "sen.jpg",
         "type" : "answered"
       }
     ]
@@ -45,7 +45,7 @@
     "id" : "2",
     "date" : "2017-01-25",
     "name" : "Andrew",
-    "avatar" : "kidler.jpg",
+    "avatar" : "andrew.png",
     "type" : "ASKED",
     "detail" : "IS ASKING:",
     "title" : "Vegan die in diabetes treatment?",
@@ -59,39 +59,42 @@
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
+        "avatar" : "david.jpg",
         "type" : "commented"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "halima.png",
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "joseph.jpg",
         "type" : "commented"
       }, {
-        "avatar" : "kidler.jpg",
+        "avatar" : "patricia.png",
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "andrew.png",
         "type" : "commented"
       },
       {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "kidler.jpg",
+        "avatar" : "sen.jpg",
         "type" : "answered"
+      },
+      {
+        "avatar" : "halima.png",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "joseph.jpg",
+        "type" : "commented"
+      }, {
+        "avatar" : "patricia.png",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "andrew.png",
+        "type" : "commented"
       }
     ]
   },
@@ -99,7 +102,7 @@
     "id" : "3",
     "date" : "2017-01-24",
     "name" : "Joseph",
-    "avatar" : "kidler.jpg",
+    "avatar" : "joseph.jpg",
     "type" : "ASKED",
     "detail" : "IS ASKING",
     "title" : "Vegan diet to stop diabetes progress",
@@ -113,11 +116,11 @@
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "david.jpg",
         "type" : "commented"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "halima.png",
         "type" : "answered"
       }
     ]},
@@ -125,7 +128,7 @@
     "id" : "4",
     "date" : "2017-01-14",
     "name" : "Andrew",
-    "avatar" : "kidler.jpg",
+    "avatar" : "andrew.png",
     "type" : "ASKED",
     "detail" : "IS ASKING",
     "title" : "Vegan diet in sport",
@@ -139,18 +142,15 @@
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
+        "avatar" : "david.jpg",
         "type" : "commented"
-      }, {
-        "avatar" : "kidler.jpg",
+      },
+      {
+        "avatar" : "halima.png",
         "type" : "answered"
       },
       {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "kidler.jpg",
+        "avatar" : "patricia.jpg",
         "type" : "answered"
       }
     ]
