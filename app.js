@@ -15,8 +15,8 @@
                     templateUrl: 'app/views/singlepost.html'
                 })
                 .state("otherwise", {
-                    url: '/',
-                    templateUrl: 'app/views/main.html'
+                    url: '',
+                    templateUrl: 'app/views/posts.html'
                 })
         });
 
