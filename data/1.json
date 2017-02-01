@@ -7,5 +7,54 @@
   "detail" : "cos tam znalazl",
   "title" : "asdasdasdasd00",
   "vote" : "15",
-  "content" : "dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dkfsdkl nfsakn sdas dasdad"
+  "action" : "IS ASKING:",
+  "content" : "dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dkfsdkl nfsakn sdas dasdad",
+  "comments" : [
+    {
+      "id" : "1",
+      "name" : "Kidler",
+      "avatar" : "kidler.jpg",
+      "type" : "Found",
+      "date" : "yesterday",
+      "action" : "Comment:",
+      "content" : "dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dkfsdkl nfsakn sdas dasdad",
+      "vote" : "15",
+      "comments": [
+        {
+        "id" : "1",
+        "date" : "2017-01-31",
+        "name" : "Kidler",
+        "avatar" : "kidler.jpg",
+        "action" : "IS ASKING:",
+        "type" : "Found",
+        "title" : "asdasdasdasd00",
+          "content" : "dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dkfsdkl nfsakn sdas dasdad",
+          "vote" : "15"
+      },
+        {
+          "id" : "1",
+          "date" : "2017-01-31",
+          "name" : "Janek",
+          "avatar" : "kidler.jpg",
+          "action" : "IS ASKING:",
+          "type" : "Found",
+          "title" : "asdasdasdasd00",
+          "content" : "dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dsfsd kfndsmkf ndsknfkds jnfkds nfkjds dkfsdkl nfsakn sdas dasdad",
+          "vote" : "15"
+        }
+      ]
+    },
+    {
+      "id" : "1",
+      "date" : "2017-01-31",
+      "name" : "Bronek",
+      "avatar" : "kidler.jpg",
+      "action" : "IS ASKING:",
+      "type" : "Found",
+      "detail" : "cos tam znalazl",
+      "title" : "asdasdasdasd00",
+      "vote" : "15",
+      "comments": []
+    }
+  ]
 }

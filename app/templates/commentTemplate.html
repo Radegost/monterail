@@ -1,0 +1,36 @@
+<div class="sp-header sp-comment">
+    <div class="sp-header__author sp-header__author--white">
+        <img src="img/{{comment.avatar}}">
+        <h4 class="author--bottom">{{comment.name}}<span class="sp-header__action">{{comment.action}}</span> </h4>
+        <span class="sp-header__date">{{comment.date}}</span>
+        <div class="sp-comment__content">
+            <p class="sp-comment__comment">{{comment.content}}</p>
+            <div class="vote">
+                <p><span>{{post.vote}}</span>upvotes</p>
+            </div>
+            <div class="vote-buttons">
+                <button class="button button--up"></button>
+                <button class="button button-down"></button>
+            </div>
+        </div>
+        <button class="post-action-button"  ng-if="comment.comments.length==0">COMMENT</button>
+    </div>
+<div class="sp-header sp-comment sp-comment__sub" ng-repeat="comment in comment.comments">
+    <div class="sp-header__author sp-header__author--white">
+        <img src="img/{{comment.avatar}}">
+        <h4 class="author--middle">{{comment.name}}<span class="sp-header__action">{{comment.action}}</span> </h4>
+        <span class="sp-header__date sp-header__date--middle">{{comment.date}}</span>
+        <div class="sp-comment__content">
+            <p class="sp-comment__comment">{{comment.content}}</p>
+            <div class="vote">
+                <p><span>{{post.vote}}</span>upvotes</p>
+            </div>
+            <div class="vote-buttons">
+                <button class="button button--up"></button>
+                <button class="button button-down"></button>
+            </div>
+        </div>
+        <button class="post-action-button"  ng-show="$last">CONTINUE discussion</button>
+    </div>
+</div>
+</div>

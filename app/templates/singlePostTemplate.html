@@ -1,0 +1,27 @@
+<div class="post">
+    <div class="sp-header">
+        <div class="sp-header__author">
+            <img src="img/{{post.avatar}}">
+            <h4 class="author--top">{{post.name}}<span class="sp-header__action">{{post.action}}</span> </h4>
+        </div>
+        <div class="sp-header__title">
+            <h4>{{post.title}}</h4>
+        </div>
+    </div>
+    <div class="sp-content">
+        <div class="post__type">
+        </div>
+        <p>{{post.content}}</p>
+    </div>
+    <button class="follow-button">follow</button>
+    <div class="vote">
+        <p><span>{{post.vote}}</span>upvotes</p>
+    </div>
+    <div class="vote-buttons">
+        <button class="button button--up"></button>
+        <button class="button button-down"></button>
+    </div>
+    <button class="post-action-button">GIVE new answer</button>
+</div>
+<div ng-include="'app/templates/commentTemplate.html'"  ng-repeat="comment in post.comments"></div>
+</div>

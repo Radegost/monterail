@@ -5,32 +5,68 @@
   background-color: lightgreen; }
 
 .sp-header {
+  position: relative;
   display: flex;
   flex-wrap: wrap; }
-  .single-post-header__author {
+  .sp-header__author {
     padding-top: 15px;
     display: inline-block;
     width: 100%;
     background-color: #dff3fd; }
-    .single-post-header__author img {
+    .sp-header__author img {
       display: inline-block;
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
       margin-left: 10px;
       border-radius: 90px; }
-    .single-post-header__author h4 {
+    .sp-header__author h4 {
       margin-left: 10px;
       display: inline-block;
       color: #2b669a; }
-  .single-post-header__title {
+    .sp-header__author .author--top {
+      vertical-align: top;
+      margin-top: 0; }
+    .sp-header__author .author--bottom {
+      vertical-align: bottom;
+      margin-top: 0; }
+    .sp-header__author .author--middle {
+      vertical-align: middle;
+      margin-top: 0; }
+  .sp-header__action {
+    font-size: 12px;
+    color: gray;
+    text-transform: uppercase;
+    margin-left: 10px; }
+  .sp-header__date {
+    top: 5px;
+    vertical-align: middle;
+    position: relative;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 20px; }
+    .sp-header__date::before {
+      position: absolute;
+      height: 4px;
+      width: 4px;
+      bottom: 40%;
+      left: -12.5px;
+      border-radius: 90px;
+      background-color: gray;
+      content: ' '; }
+  .sp-header__date--middle {
+    top: -3px; }
+  .sp-header__author--white {
+    background-color: #ffffff; }
+  .sp-header__title {
     margin-top: 2px;
     width: 100%;
     background-color: #dff3fd; }
-    .single-post-header__title h4 {
+    .sp-header__title h4 {
       margin-left: 30px;
       color: #2b669a; }
 
-.single-post-content p {
+.sp-content p {
   margin: 10px;
   margin-bottom: 60px;
   color: gray; }
@@ -86,5 +122,33 @@
     margin: 0 5px;
     font-size: 16px;
     font-family: RoticSans, sans-serif; }
+
+.sp-comment + .sp-header__author {
+  background-color: white; }
+
+.sp-comment {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .sp-comment__sub {
+    border-top: 1px solid lightgray;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    border-left: 5px solid gray; }
+  .sp-comment__content {
+    position: relative;
+    padding-bottom: 50px;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-height: 120px;
+    color: gray; }
+  .sp-comment__comment {
+    padding-bottom: 40px; }
+  .sp-comment .vote {
+    bottom: 25px; }
+  .sp-comment .vote-buttons {
+    bottom: 20px; }
 
 /*# sourceMappingURL=single.css.map */
