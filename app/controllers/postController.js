@@ -11,10 +11,6 @@
         $scope.postLimit = 3;
         getLimit();
 
-        $('.post__header').on('click',function () {
-          // uiSref(this.id);
-           console.log("elo");
-        });
         $('#load-more').on('click',function () {
             $scope.postLimit+=1;
             $scope.$digest();

@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5 {
   font-family: RoticSans, serif; }
 
 body {
+  font-family: RoticSans, sans-serif;
   background-color: #ffe1ad; }
 
 .container {
@@ -63,7 +64,7 @@ body {
   display: inline-block; }
   .title-container__title {
     padding: 0;
-    margin: 0 30px 0 20px;
+    margin: 0 30px 0 40px;
     display: inline-block;
     font-weight: 700;
     float: left; }
@@ -153,7 +154,7 @@ body {
   -webkit-box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
   box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
-  height: 325px;
+  min-height: 325px;
   max-width: 800px;
   margin: auto;
   position: relative;
@@ -169,7 +170,7 @@ body {
       cursor: pointer;
       padding: 0;
       margin: 0;
-      font-size: 14px;
+      font-size: 16px;
       color: #0266b3;
       font-weight: 700; }
       .post__title p:hover {
@@ -214,7 +215,6 @@ body {
       font-weight: 700;
       font-size: 16px; }
     .post__stats p {
-      font-family: RoticSansItalic, sans-serif;
       font-size: 12px;
       display: block;
       margin-top: 25px;
@@ -253,10 +253,8 @@ body {
       width: 100%;
       font-weight: 700;
       text-align: center;
-      font-size: 16px;
-      font-family: RoticSansBold, sans-serif; }
+      font-size: 16px; }
     .activities__label--down {
-      font-family: RoticSansItalic, sans-serif;
       width: 50px;
       left: calc(50% - 25px);
       display: block;
@@ -285,7 +283,7 @@ body {
     bottom: -6px;
     left: calc(50% - 6px); }
   .comment span {
-    font-size: 9px;
+    font-size: 12px;
     position: absolute;
     width: 90%;
     left: 5%;
@@ -353,7 +351,7 @@ body {
     height: 160px;
     width: 90px;
     min-width: 90px; } }
-@media (min-width: 780px) {
+@media (min-width: 768px) {
   .back-arrow {
     top: 55px; }
 
@@ -374,6 +372,8 @@ body {
     text-align: left;
     margin-top: 50px;
     display: inline-block; }
+    .title-container__title {
+      margin-left: 0; }
 
   .radio-group {
     margin-top: 65px;

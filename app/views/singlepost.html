@@ -15,17 +15,31 @@
 <section class="post-container">
     <div class="container">
         <div class="post">
-            <div class="post-header">
-                <div class="avatar">
-                    <img src="img/kidler.jpg">
-                </div>
+            <div class="sp-header">
                 <div class="single-post-header__author">
-                    <h4>Eva</h4>
+                    <img src="img/{{post.avatar}}">
+                    <h4>{{post.name}}</h4>
                 </div>
-                <div class="single-post-header__topic">
-                    <p>sfsdfs</p>
+                <div class="single-post-header__title">
+                    <h4>{{post.title}}</h4>
                 </div>
             </div>
+            <div class="single-post-content">
+                <p>{{post.content}}</p>
+            </div>
+            <button class="follow-button">follow</button>
+            <div class="vote">
+                <p><span>{{post.vote}}</span>upvotes</p>
+
+            </div>
+            <div class="vote-buttons">
+                <button class="button button--up"></button>
+                <button class="button button-down"></button>
+            </div>
+            <button class="post-action-button">GIVE new answer</button>
+        </div>
+        <div class="sp-comment">
+
         </div>
 
     </div>
