@@ -477,10 +477,14 @@ body{
     text-align: right;
     margin-bottom: 0;
     span {
-      cursor: pointer;
       margin-left: 7px;
       margin-right: 7px;
       font-style: italic;
+    }
+    a{
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
   .post{

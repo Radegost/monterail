@@ -411,10 +411,11 @@ body {
     text-align: right;
     margin-bottom: 0; }
     .sort span {
-      cursor: pointer;
       margin-left: 7px;
       margin-right: 7px;
       font-style: italic; }
+    .sort a:hover {
+      cursor: pointer; }
 
   .comment {
     margin-left: 5px;
