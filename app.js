@@ -5,7 +5,7 @@
         .config(function ($stateProvider) {
             $stateProvider
                 .state('main', {
-                    url: '',
+                    url: '/',
                     controller: "post-controller",
                     templateUrl: 'app/views/posts.html'
                 })
