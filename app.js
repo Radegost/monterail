@@ -15,7 +15,8 @@
                     templateUrl: 'app/views/singlepost.html'
                 })
                 .state("otherwise", {
-                    redirectTo:'/'
+                    controller: "post-controller",
+                    templateUrl: 'app/views/posts.html'
                 })
         });
 
