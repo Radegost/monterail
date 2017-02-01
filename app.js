@@ -9,6 +9,11 @@
                     controller: "post-controller",
                     templateUrl: 'app/views/posts.html'
                 })
+                .state('home', {
+                    url: '/home',
+                    controller: "post-controller",
+                    templateUrl: 'app/views/posts.html'
+                })
                 .state('post', {
                     controller: "singlePost-controller",
                     url: '/post/:postid',
