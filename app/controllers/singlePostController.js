@@ -7,5 +7,11 @@
             $scope.post = response.data;
             console.log(response.data);
         });
+
+        $('.button--up').on('click', function () {
+            this.$scope.post.vote +=1;
+            alert(this.post.vote);
+            $scope.$digest();
+        })
     });
 })();

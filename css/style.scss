@@ -35,7 +35,7 @@ body{
   margin: 0;
   &__container-main{
     display: inline-block;
-    width: 100%;
+    min-width: 100%;
   }
   &__container-side{
     display: flex;
@@ -188,6 +188,7 @@ body{
     margin-top: 25px;
     margin-left: 20px;
     p {
+      font-style: italic;
       cursor: pointer;
       padding: 0;
       margin: 0;

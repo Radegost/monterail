@@ -2,15 +2,15 @@
   {
     "id" : "1",
     "date" : "2017-01-31",
-    "name" : "Bronek",
+    "name" : "Eva",
     "avatar" : "kidler.jpg",
-    "type" : "Found",
-    "detail" : "cos tam znalazl",
-    "title" : "asdasdasdasd00",
-    "peers" : "10",
+    "type" : "Asked",
+    "detail" : "IS ASKING:",
+    "title" : "Will insulin make my patient gain weight?",
+    "peers" : "6",
     "conversation": "3",
     "discussion": "1",
-    "totalactivity": 14,
+    "totalactivity": 7,
     "activities" : [
       {
         "avatar" : "kidler.jpg",
@@ -46,17 +46,48 @@
     "date" : "2017-01-25",
     "name" : "Andrew",
     "avatar" : "kidler.jpg",
-    "type" : "Found",
-    "detail" : "cos tam znalazl",
-    "title" : "asdasdasdasd00",
-    "peers" : "3",
-    "conversation": "3",
-    "discussion": "1",
-    "totalactivity": 7,
+    "type" : "ASKED",
+    "detail" : "IS ASKING:",
+    "title" : "Vegan die in diabetes treatment?",
+    "peers" : "9",
+    "conversation": "5",
+    "discussion": "2",
+    "totalactivity": 10,
     "activities" : [
       {
         "avatar" : "kidler.jpg",
         "type" : "answered"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "commented"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "commented"
+      }, {
+        "avatar" : "kidler.jpg",
+        "type" : "answered"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "commented"
+      },
+      {
+        "avatar" : "kidler.jpg",
+        "type" : "commented"
       },
       {
         "avatar" : "kidler.jpg",
@@ -67,47 +98,17 @@
   {
     "id" : "3",
     "date" : "2017-01-24",
-    "name" : "Ewa",
+    "name" : "Joseph",
     "avatar" : "kidler.jpg",
-    "type" : "Found",
-    "detail" : "cos tam znalazl",
-    "title" : "asdasdasdasd00",
-    "peers" : "10",
-    "conversation": "3",
-    "discussion": "1",
-    "totalactivity": 15,
+    "type" : "ASKED",
+    "detail" : "IS ASKING",
+    "title" : "Vegan diet to stop diabetes progress",
+    "peers" : "4",
+    "conversation": "0",
+    "discussion": "5",
+    "totalactivity": 3,
     "activities" : [
       {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      }, {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "commented"
-      }, {
         "avatar" : "kidler.jpg",
         "type" : "answered"
       },
@@ -122,12 +123,12 @@
     ]},
   {
     "id" : "4",
-    "date" : "2017-01-27",
-    "name" : "Janusz",
+    "date" : "2017-01-14",
+    "name" : "Andrew",
     "avatar" : "kidler.jpg",
-    "type" : "Found",
-    "detail" : "cos tam znalazl",
-    "title" : "asdasdasdasd00",
+    "type" : "ASKED",
+    "detail" : "IS ASKING",
+    "title" : "Vegan diet in sport",
     "peers" : "10",
     "conversation": "3",
     "discussion": "1",

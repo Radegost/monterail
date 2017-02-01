@@ -27,7 +27,7 @@ body {
   margin: 0; }
   .page-header__container-main {
     display: inline-block;
-    width: 100%; }
+    min-width: 100%; }
   .page-header__container-side {
     display: flex;
     flex-wrap: wrap;
@@ -167,6 +167,7 @@ body {
     margin-top: 25px;
     margin-left: 20px; }
     .post__title p {
+      font-style: italic;
       cursor: pointer;
       padding: 0;
       margin: 0;

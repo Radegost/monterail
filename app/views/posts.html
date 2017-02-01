@@ -27,39 +27,7 @@
 
 <section class="post-container">
     <div class="container">
-        <div class="post"
-             ng-repeat="post in posts | orderBy: postOrder | filter: postSearch | limitTo: postLimit">
-            <div class="post__header" >
-                <div class="avatar">
-                    <img src="img/{{post.avatar}}" alt="avatar">
-                </div>
-                <div class="post__title">
-                    <p >{{post.name}}<span>{{post.detail}}</span></p>
-                    <p ui-sref="post({postid: post.id})">{{post.title}}</p>
-                </div>
-            </div>
-            <div class="post__type">
-                <span>{{post.type}}</span>
-            </div>
-            <div class="post__activity">
-                    <div class="activities"  ng-if="post.activities.length>limit">
-                        <span class="activities__label--up">{{post.activities.length-limit}}</span>
-                        <span class="activities__label--down">more activities</span>
-                    </div>
-                    <div ng-repeat="activity in post.activities | limitTo: limit"
-                         ng-class="{ 'comment': activity.type=='commented' , 'comment answer': activity.type=='answered'}">
-                        <div class="avatar">
-                            <img src="img/{{activity.avatar}}">
-                        </div>
-                        <span>{{activity.type}}</span>
-                    </div>
-                </div>
-            <div class="post__stats">
-                <p><span>{{post.discussion}}</span> related discussion</p>
-                <p><span>{{post.peers}}</span> peers involved</p>
-                <p><span>{{post.conversation}}</span> conversations</p>
-            </div>
-            </div>
+        <div ng-include="'app/templates/allPostsPostTemplate.html'"></div>
         <button class="load-more" id="load-more">Load more questions</button>
     </div>
 
