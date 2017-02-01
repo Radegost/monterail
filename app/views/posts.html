@@ -1,9 +1,10 @@
 <header class="page-header">
+    <button class="back-arrow"></button>
     <div class="container">
         <div class="page-header__container-main">
             <div class="title-container">
                 <h1 class="title-container__title">QUESTIONS</h1>
-                <span class="title-container__plus"></span>
+                <button class="title-container__plus"></button>
             </div>
             <div class="radio-group">
                 <input type="radio" name="group1" value="my_shelf" checked title="Show posts from your shelf">My shelf
@@ -25,16 +26,16 @@
 </header>
 
 <section class="post-container">
-    <div class="container"  ng-controller="post-controller">
+    <div class="container">
         <div class="post"
              ng-repeat="post in posts | orderBy: postOrder | filter: postSearch | limitTo: postLimit">
-            <div class="post__header">
+            <div class="post__header" >
                 <div class="avatar">
                     <img src="img/{{post.avatar}}" alt="avatar">
                 </div>
                 <div class="post__title">
-                    <p>{{post.name}}<span>{{post.detail}}</span></p>
-                    <p>{{post.title}}</p>
+                    <p >{{post.name}}<span>{{post.detail}}</span></p>
+                    <p ui-sref="post({postid: post.id})">{{post.title}}</p>
                 </div>
             </div>
             <div class="post__type">

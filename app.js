@@ -6,11 +6,13 @@
             $stateProvider
                 .state('main', {
                     url: '',
-                    templateUrl: 'app/views/singlepost.html'
-                })
-                .state('forms', {
-                    url: '/all',
+                    controller: "post-controller",
                     templateUrl: 'app/views/posts.html'
+                })
+                .state('post', {
+                    controller: "singlePost-controller",
+                    url: '/post/:postid',
+                    templateUrl: 'app/views/singlepost.html'
                 })
                 .state("otherwise", {
                     url: '/',

@@ -1,7 +1,8 @@
 [
   {
+    "id" : "1",
     "date" : "2017-01-23",
-    "name" : "Bronek 23",
+    "name" : "Bronek",
     "avatar" : "kidler.jpg",
     "type" : "Found",
     "detail" : "cos tam znalazl",
@@ -41,8 +42,9 @@
     ]
   },
   {
+    "id" : "2",
     "date" : "2017-01-25",
-    "name" : "Andrew 25",
+    "name" : "Andrew",
     "avatar" : "kidler.jpg",
     "type" : "Found",
     "detail" : "cos tam znalazl",
@@ -63,8 +65,9 @@
     ]
   },
   {
+    "id" : "3",
     "date" : "2017-01-24",
-    "name" : "Bronek 23",
+    "name" : "Ewa",
     "avatar" : "kidler.jpg",
     "type" : "Found",
     "detail" : "cos tam znalazl",
@@ -118,8 +121,9 @@
       }
     ]},
   {
+    "id" : "4",
     "date" : "2017-01-27",
-    "name" : "Bronek 23",
+    "name" : "Janusz",
     "avatar" : "kidler.jpg",
     "type" : "Found",
     "detail" : "cos tam znalazl",
