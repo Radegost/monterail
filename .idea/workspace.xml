@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9053ce8-aabf-4840-a691-49730d92eccb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/modal.css" afterPath="$PROJECT_DIR$/css/modal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/modal.css.map" afterPath="$PROJECT_DIR$/css/modal.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/modal.scss" afterPath="$PROJECT_DIR$/css/modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +65,7 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/data/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-672">
+                <state relative-caret-position="840">
                   <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="26" />
                   <folding />
                 </state>
@@ -89,7 +86,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="modal.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="modal.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/modal.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="662">
@@ -129,6 +126,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="129">
                   <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -204,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/views/posts.html" />
         <option value="$PROJECT_DIR$/data/data.json" />
         <option value="$PROJECT_DIR$/app/controllers/profileController.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data/modal1.json" />
         <option value="$PROJECT_DIR$/app/templates/profile.html" />
         <option value="$PROJECT_DIR$/data/modal2.json" />
@@ -222,6 +228,7 @@
         <option value="$PROJECT_DIR$/data/3.json" />
         <option value="$PROJECT_DIR$/data/4.json" />
         <option value="$PROJECT_DIR$/css/modal.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -519,12 +526,12 @@
       <workItem from="1485946840148" duration="13550000" />
       <workItem from="1485960455372" duration="761000" />
       <workItem from="1485961347608" duration="13156000" />
-      <workItem from="1486060858078" duration="18908000" />
+      <workItem from="1486060858078" duration="19173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109387000" />
+    <option name="totallyTimeSpent" value="109652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -726,14 +733,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -856,7 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
+        <state relative-caret-position="840">
           <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
@@ -880,6 +879,14 @@
             <element signature="e#3185#3244#0" expanded="false" />
             <element signature="e#3200#3240#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
