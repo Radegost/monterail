@@ -231,12 +231,14 @@
   .activity-level {
     margin-top: 0px; }
 
-  .modal-footer .hot .hot-stats {
-    justify-content: center; }
-    .modal-footer .hot .hot-stats p {
-      width: auto; } }
+  .modal-footer .hot {
+    min-height: 0; }
+    .modal-footer .hot .hot-stats {
+      justify-content: center; }
+      .modal-footer .hot .hot-stats p {
+        width: auto; } }
 @media (min-width: 998px) {
   .modal-dialog {
-    top: 50px; } }
+    top: 20px; } }
 
 /*# sourceMappingURL=modal.css.map */

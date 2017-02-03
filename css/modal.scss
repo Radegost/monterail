@@ -285,6 +285,7 @@
   }
   .modal-footer{
   .hot{
+    min-height: 0;
     .hot-stats{
       justify-content: center;
       p{
@@ -296,7 +297,7 @@
 }
 @media (min-width: 998px) {
   .modal-dialog{
-    top:50px;
+    top:20px;
   }
-  
+
 }
