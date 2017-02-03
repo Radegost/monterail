@@ -1,8 +1,79 @@
-<div id="custom-modal">
-    <div id="overlay">
-        This is a custom modal. The angular-modal-service doesn't depend on bootstrap, you
-        can use any modal you want.
-        <a href ng-click="close()">Close</a>
+<div class="modal-header">
+    <button class="button-close" ng-click="$ctrl.cancel()">x</button>
+    <img class="profile-avatar" src="img/{{$ctrl.data.avatar}}">
+    <p class="profile-name">{{$ctrl.data.name}}</p>
+    <div class="profile-info">
+           <p class="info info--gray">member for</p>
+           <p class="info info--black">{{$ctrl.data.member}}</p>
+            <p class="info info--gray">last seen</p>
+            <p class="info info--black">{{$ctrl.data.seen}}</p>
+
+        <div class="activity-level">
+            <p class="info info--gray">activity level</p>
+         <span class="active-item active">
+         <span class="fa fa-star"></span>
+         <span class="down fa fa-bookmark"></span>
+         </span>
+            <span class="active-item active">
+         <span class="fa fa-star red"></span>
+         <span class="down fa fa-bookmark"></span>
+         </span>
+            <span class="active-item">
+         <span class="fa fa-star"></span>
+         <span class="down fa fa-bookmark"></span>
+         </span>
+        </div>
     </div>
-    <div id="fade"></div>
 </div>
+<div class="modal-body" id="modal-body">
+    <div class="flex-sa-container">
+        <button class="arrow"></button>
+        <p class="black-title">How it all stared</p>
+        <button class="arrow arrow-next arrow--active"></button>
+    </div>
+    <p class="gray-title col-xs-8 col-xs-offset-2 text-center">that's where we have been these {{$ctrl.data.member}} ago</p>
+    <div class="profile-stats-container">
+        <div class="square square-1">
+            <p class="stat-number">{{$ctrl.data.peers}}</p>
+            <p class="stat-info">peers</p>
+        </div>
+        <div class="square square-2">
+            <p class="stat-number">{{$ctrl.data.discussion}}</p>
+            <p class="stat-info">discussion</p>
+        </div>
+        <div class="square square-3">
+            <p class="stat-number">{{$ctrl.data.findings}}</p>
+            <p class="stat-info">findings</p>
+        </div>
+        <div class="square square-4">
+            <p class="stat-number">{{$ctrl.data.questions}}</p>
+            <p class="stat-info">questions</p>
+        </div>
+    </div>
+    <p class="gray-title col-xs-8 col-xs-offset-2 text-center">Who joined the platfom that same period</p>
+    <div class="friends">
+        <div class="friend" ng-repeat="friend in $ctrl.data.friends">
+            <div class="avatar">
+                <img src="img/{{friend.avatar}}" alt="">
+            </div>
+            <p class="name">{{friend.name}}</p>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <p class="gray-title text-center hot-title">The hottest discussion these days</p>
+    <div class="hot">
+        <img class="hot-avatar" src="img/{{$ctrl.data.hot.avatar}}" alt="">
+        <div class="hot-header">
+            <h3>{{$ctrl.data.hot.name}} <span>{{$ctrl.data.hot.type}}</span></h3>
+            <h3>{{$ctrl.data.hot.title}}</h3>
+        </div>
+        <div class="hot-stats">
+            <p><span>{{$ctrl.data.hot.peers}}</span>peers</p>
+            <p><span>{{$ctrl.data.hot.related}}</span>related discussion</p>
+            <p><span>{{$ctrl.data.hot.conversation}}</span>conversations</p>
+            <p><span>{{$ctrl.data.hot.votes}}</span>upvotes</p>
+        </div>
+    </div>
+</div>
+

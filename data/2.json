@@ -13,6 +13,7 @@
     {
       "id" : "1",
       "name" : "Patricia",
+      "profileId" : "7",
       "avatar" : "patricia.png",
       "date" : "yesterday",
       "action" : "Comment IT:",
@@ -23,6 +24,7 @@
         "id" : "1",
         "date" : "yesterday",
         "name" : "David",
+          "profileId" : "5",
         "avatar" : "david.jpg",
         "action" : "COMMENTED IT:",
           "content" : "You should check your feet daily for redness, caluses, crack or skin breakdown",
@@ -34,6 +36,7 @@
       "date" : "two days",
       "name" : "Josph's",
       "avatar" : "joseph.jpg",
+      "profileId" : "3",
       "action" : "COMMENTED IT:",
       "vote" : "3",
       "content" : "When your blood sugar is low, your body gives out sign that you need food, Different people have different symptoms. You will learn to know yours symptoms ",

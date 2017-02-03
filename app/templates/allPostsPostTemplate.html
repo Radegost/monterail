@@ -1,11 +1,12 @@
 <div class="post"
+     ng-controller="ModalCtrl as $ctrl"
      ng-repeat="post in posts | orderBy: postOrder | filter: postSearch | limitTo: postLimit">
     <div class="post__header" >
         <div class="avatar">
-            <img src="img/{{post.avatar}}" alt="avatar">
+            <img src="img/{{post.avatar}}" ng-click="$ctrl.open(post.profileId)" alt="avatar">
         </div>
         <div class="post__title">
-            <p >{{post.name}}<span>{{post.detail}}</span></p>
+            <p ng-click="$ctrl.open(post.profileId)">{{post.name}}<span>{{post.detail}}</span></p>
             <p ui-sref="post({postid: post.id})">{{post.title}}</p>
         </div>
     </div>
@@ -20,7 +21,7 @@
         <div ng-repeat="activity in post.activities | limitTo: limit"
              ng-class="{ 'comment': activity.type=='commented' , 'comment answer': activity.type=='answered'}">
             <div class="avatar">
-                <img src="img/{{activity.avatar}}">
+                <img ng-click="$ctrl.open(activity.profileId)" src="img/{{activity.avatar}} ">
             </div>
             <span>{{activity.type}}</span>
         </div>
@@ -31,3 +32,4 @@
         <p><span>{{post.conversation}}</span> conversations</p>
     </div>
 </div>
+

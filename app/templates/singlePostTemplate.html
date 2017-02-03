@@ -1,8 +1,8 @@
-<div class="post sp-post">
+<div class="post sp-post" ng-controller="ModalCtrl as $ctrl">
     <div class="sp-header">
         <div class="sp-header__author">
-            <img src="img/{{post.avatar}}">
-            <h4 class="author--top">{{post.name}}<span class="sp-header__action">{{post.action}}</span> </h4>
+            <img ng-click="$ctrl.open(post.profileId)" src="img/{{post.avatar}}">
+            <h4 ng-click="$ctrl.open(post.profileId)" class="author--top">{{post.name}}<span class="sp-header__action">{{post.action}}</span> </h4>
         </div>
         <div class="sp-header__title">
             <h4>{{post.title}}</h4>

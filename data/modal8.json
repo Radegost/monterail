@@ -1,0 +1,34 @@
+{
+  "name" : "Dr S.E.N",
+  "avatar" : "sen.png",
+  "member" : "5 months",
+  "seen" : "Saturday Afternoon",
+  "peers" : "46",
+  "discussion" : "29",
+  "findings" : "19",
+  "questions" : "10",
+  "friends" : [
+    {
+      "name" : "S.E.N Waweru",
+      "avatar" : "sen.png"
+    },
+    {
+      "name" : "Patricia",
+      "avatar" : "patricia.png"
+    },
+    {
+      "name" : "Josph's",
+      "avatar" : "joseph.jpg"
+    }
+  ],
+  "hot" : {
+    "name" : "andrew",
+    "avatar" : "andrew.png",
+    "type" : "found the guardian article",
+    "title" : "Vegan diet to stop diabetes progress",
+    "related" : "3",
+    "peers" : "6",
+    "conversation" : "3",
+    "votes" : "19"
+  }
+}

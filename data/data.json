@@ -6,6 +6,7 @@
     "avatar" : "eva.jpg",
     "type" : "Asked",
     "detail" : "IS ASKING:",
+    "profileId" : "1",
     "title" : "Will insulin make my patient gain weight?",
     "peers" : "6",
     "conversation": "3",
@@ -13,30 +14,37 @@
     "totalactivity": 7,
     "activities" : [
       {
+        "profileId" : "4",
         "avatar" : "kidler.jpg",
         "type" : "answered"
       },
       {
+        "profileId" : "5",
         "avatar" : "david.jpg",
         "type" : "commented"
       },
       {
+        "profileId" : "6",
         "avatar" : "halima.png",
         "type" : "answered"
       },
       {
+        "profileId" : "3",
         "avatar" : "joseph.jpg",
         "type" : "commented"
       }, {
+        "profileId" : "7",
         "avatar" : "patricia.png",
         "type" : "answered"
       },
       {
+        "profileId" : "2",
         "avatar" : "andrew.png",
         "type" : "commented"
       },
       {
-        "avatar" : "sen.jpg",
+        "profileId" : "8",
+        "avatar" : "sen.png",
         "type" : "answered"
       }
     ]
@@ -48,55 +56,62 @@
     "avatar" : "andrew.png",
     "type" : "ASKED",
     "detail" : "IS ASKING:",
+    "profileId" : "2",
     "title" : "Vegan die in diabetes treatment?",
     "peers" : "9",
     "conversation": "5",
     "discussion": "2",
     "totalactivity": 10,
     "activities" : [
-      {
-        "avatar" : "kidler.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "david.jpg",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "halima.png",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "joseph.jpg",
-        "type" : "commented"
-      }, {
-        "avatar" : "patricia.png",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "andrew.png",
-        "type" : "commented"
-      },
-      {
-        "avatar" : "sen.jpg",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "halima.png",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "joseph.jpg",
-        "type" : "commented"
-      }, {
-        "avatar" : "patricia.png",
-        "type" : "answered"
-      },
-      {
-        "avatar" : "andrew.png",
-        "type" : "commented"
-      }
-    ]
+  {
+  "profileId" : "4",
+  "avatar" : "kidler.jpg",
+  "type" : "answered"
+  },
+  {
+  "profileId" : "5",
+  "avatar" : "david.jpg",
+  "type" : "commented"
+  },
+  {
+  "profileId" : "6",
+  "avatar" : "halima.png",
+  "type" : "answered"
+  },
+  {
+  "profileId" : "3",
+  "avatar" : "joseph.jpg",
+  "type" : "commented"
+  }, {
+  "profileId" : "7",
+  "avatar" : "patricia.png",
+  "type" : "answered"
+  },
+  {
+  "profileId" : "2",
+  "avatar" : "andrew.png",
+  "type" : "commented"
+  },
+  {
+  "profileId" : "8",
+  "avatar" : "sen.png",
+  "type" : "answered"
+  },
+  {
+  "profileId" : "3",
+  "avatar" : "joseph.jpg",
+  "type" : "commented"
+  }, {
+  "profileId" : "7",
+  "avatar" : "patricia.png",
+  "type" : "answered"
+  },
+  {
+  "profileId" : "2",
+  "avatar" : "andrew.png",
+  "type" : "commented"
+  }
+  ]
   },
   {
     "id" : "3",
@@ -104,6 +119,7 @@
     "name" : "Joseph",
     "avatar" : "joseph.jpg",
     "type" : "ASKED",
+    "profileId" : "3",
     "detail" : "IS ASKING",
     "title" : "Vegan diet to stop diabetes progress",
     "peers" : "4",
@@ -112,15 +128,18 @@
     "totalactivity": 3,
     "activities" : [
       {
-        "avatar" : "kidler.jpg",
+        "profileId" : "7",
+        "avatar" : "patricia.png",
         "type" : "answered"
       },
       {
-        "avatar" : "david.jpg",
+        "profileId" : "2",
+        "avatar" : "andrew.png",
         "type" : "commented"
       },
       {
-        "avatar" : "halima.png",
+        "profileId" : "8",
+        "avatar" : "sen.png",
         "type" : "answered"
       }
     ]},
@@ -128,6 +147,7 @@
     "id" : "4",
     "date" : "2017-01-14",
     "name" : "Andrew",
+    "profileId" : "2",
     "avatar" : "andrew.png",
     "type" : "ASKED",
     "detail" : "IS ASKING",
@@ -138,19 +158,23 @@
     "totalactivity": 5,
     "activities" : [
       {
-        "avatar" : "kidler.jpg",
+        "profileId" : "7",
+        "avatar" : "patricia.png",
         "type" : "answered"
       },
       {
-        "avatar" : "david.jpg",
+        "profileId" : "2",
+        "avatar" : "andrew.png",
         "type" : "commented"
       },
       {
-        "avatar" : "halima.png",
+        "profileId" : "8",
+        "avatar" : "sen.png",
         "type" : "answered"
       },
       {
-        "avatar" : "patricia.jpg",
+        "profileId" : "7",
+        "avatar" : "patricia.png",
         "type" : "answered"
       }
     ]
