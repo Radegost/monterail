@@ -24,8 +24,13 @@
     border-radius: 90px; }
 
 .flex-sa-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 50px; }
 
@@ -45,19 +50,28 @@
     height: 10px;
     border-bottom: 2px solid white;
     border-left: 2px solid white;
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
 
 .arrow-next::after {
   left: 7px;
+  -webkit-transform: rotate(220deg);
   transform: rotate(220deg); }
 
 .arrow--active {
   background-color: #0266b9; }
 
 .profile-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: distribute;
   justify-content: space-around; }
   .profile-info .info {
     padding: 0;
@@ -82,7 +96,11 @@
 
 .activity-level {
   margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
   .activity-level .active-item {
     margin: 0 8px;
@@ -123,13 +141,24 @@
     margin: 0px; }
   .modal-body .profile-stats-container {
     margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-bottom: 50px; }
   .modal-body .square {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
     padding: 0;
@@ -155,12 +184,16 @@
       z-index: 1;
       font-style: italic; }
   .modal-body .square-1::before {
+    -webkit-transform: rotate(60deg);
     transform: rotate(60deg); }
   .modal-body .square-2::before {
+    -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg); }
   .modal-body .square-3::before {
+    -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg); }
   .modal-body .square-4::before {
+    -webkit-transform: rotate(10deg);
     transform: rotate(10deg); }
   .modal-body .friends {
     display: inline-block;
@@ -209,8 +242,12 @@
         color: gray; }
     .modal-footer .hot .hot-stats {
       margin-top: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      -ms-flex-pack: distribute;
       justify-content: space-around; }
       .modal-footer .hot .hot-stats p {
         width: 150px;
@@ -223,7 +260,11 @@
 
 @media (min-width: 450px) {
   .profile-info {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around; }
     .profile-info .info--black {
       margin-right: 40px; }
@@ -234,6 +275,8 @@
   .modal-footer .hot {
     min-height: 0; }
     .modal-footer .hot .hot-stats {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center; }
       .modal-footer .hot .hot-stats p {
         width: auto; } }

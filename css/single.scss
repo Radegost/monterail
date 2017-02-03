@@ -20,7 +20,10 @@
 }
 .sp-header{
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 
   &__author{
@@ -127,6 +130,7 @@
   position: absolute;
   bottom: 40px;
   right: -20px;
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .button {
@@ -266,51 +270,49 @@
     }
   }
 
-.sp-header{
-  &__author--white{
-    -webkit-box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
-    box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
-    position: relative;
-    h4{
-      margin-left: 100px;
-    }
-    &::before{
-      position: absolute;
-      width: 90px;
-      height: 100%;
-      top:0;
-      content: ' ';
-      border-right: 1px solid lightgray;
+  .sp-header{
+    &__author--white{
+      box-shadow: 6px 0 13px -4px rgba(0, 0, 0, 0.19);
+      position: relative;
+      h4{
+        margin-left: 100px;
+      }
+      &::before{
+        position: absolute;
+        width: 90px;
+        height: 100%;
+        top:0;
+        content: ' ';
+        border-right: 1px solid lightgray;
+      }
     }
   }
-}
-.sp-comment{
-  width: 100%;
-  &__content{
-    border-top: none;
-    margin-top: 0;
-    width: calc(100% - 90px);
-    margin-bottom: 0px;
-    margin-left: 90px;
-    p{
-      width: calc(100% - 150px);
-    }
-    .vote{
-      top:0;
-    }
-    .vote-buttons{
-      height: 20px;
-      top: 0px;
-    }
+  .sp-comment{
+    width: 100%;
+    &__content{
+      border-top: none;
+      margin-top: 0;
+      width: calc(100% - 90px);
+      margin-bottom: 0px;
+      margin-left: 90px;
+      p{
+        width: calc(100% - 150px);
+      }
+      .vote{
+        top:0;
+      }
+      .vote-buttons{
+        height: 20px;
+        top: 0px;
+      }
 
+    }
   }
-}
-.sp-comment__sub{
-  margin-left: 90px;
-  border: none;
-  border-top: 1px solid lightgray;
-}
+  .sp-comment__sub{
+    margin-left: 90px;
+    border: none;
+    border-top: 1px solid lightgray;
+  }
 }
 @media (min-width: 768px) {
   .post-date {
