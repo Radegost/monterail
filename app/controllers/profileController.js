@@ -26,15 +26,8 @@
             }, function () {
             });
         };
-
-
-
-
-
     });
 
-// Please note that $uibModalInstance represents a modal window (instance) dependency.
-// It is not the same as the $uibModal service used above.
 
     angular.module('app').controller('ModalInstanceCtrl', function ($uibModalInstance,$http, id) {
         var $ctrl = this;
@@ -46,9 +39,6 @@
             $uibModalInstance.dismiss('cancel');
         };
     });
-
-// Please note that the close and dismiss bindings are from $uibModalInstance.
-
 
 
 })();
